@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Studies - Student Success Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Student Success Hub</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="case-studies.html">Case Studies</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="case-studies-page">
+        <h1>Success Stories</h1>
+        <p>Discover inspiring journeys of students and leaders who turned challenges into triumphs. Click on any story to learn more about their remarkable achievements.</p>
+
+        <div class="case-studies">
+            <div class="case-study" data-id="maria">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Successful student">
+                <h3>From Struggle to Scholarship</h3>
+                <p>Maria overcame academic challenges and earned a full scholarship to her dream university through dedication and our study programs.</p>
+            </div>
+            <div class="case-study" data-id="alex">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Graduating student">
+                <h3>Breaking Barriers</h3>
+                <p>Alex, a first-generation college student, graduated top of his class and now leads innovative projects in tech.</p>
+            </div>
+            <div class="case-study" data-id="sarah">
+                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Confident student">
+                <h3>Empowering Dreams</h3>
+                <p>Sarah transformed her passion for science into a research career, inspiring countless others along the way.</p>
+            </div>
+            <div class="case-study" data-id="elon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/440px-Elon_Musk_Royal_Society_%28crop2%29.jpg" alt="Elon Musk">
+                <h3>Elon Musk: Visionary Innovator</h3>
+                <p>From humble beginnings, Elon Musk revolutionized multiple industries with Tesla, SpaceX, and Neuralink, proving that relentless innovation and risk-taking can change the world.</p>
+            </div>
+            <div class="case-study" data-id="dangote">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Aliko_Dangote_%28cropped%29.jpg/440px-Aliko_Dangote_%28cropped%29.jpg" alt="Aliko Dangote">
+                <h3>Aliko Dangote: African Business Titan</h3>
+                <p>Starting with a small loan, Aliko Dangote built Africa's largest conglomerate, spanning cement, sugar, and flour industries, creating millions of jobs and inspiring entrepreneurship across the continent.</p>
+            </div>
+            <div class="case-study" data-id="elumelu">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tony_Elumelu.jpg/440px-Tony_Elumelu.jpg" alt="Tony Elumelu">
+                <h3>Tony Elumelu: Banking Pioneer</h3>
+                <p>Tony Elumelu transformed United Bank for Africa into a pan-African powerhouse, championing Africapitalism and investing in the next generation of African leaders.</p>
+            </div>
+            <div class="case-study" data-id="soyinka">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Wole_Soyinka_2013.jpg/440px-Wole_Soyinka_2013.jpg" alt="Wole Soyinka">
+                <h3>Wole Soyinka: Literary Giant</h3>
+                <p>Nigeria's first Nobel Laureate in Literature, Wole Soyinka's powerful writings challenged oppression and inspired generations to use their voices for change and cultural preservation.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Student Success Hub. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal for case study details -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <img id="modal-image" src="" alt="">
+                <h2 id="modal-title"></h2>
+                <p id="modal-text"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
